@@ -33,4 +33,8 @@ body {
     --size-32: 8rem;
     --size-36: 9rem;
     --size-40: 10rem;
+
+    --time-fast: 200ms;
+    --time-medium: 500ms;
+    --time-slow: 800ms;
 }

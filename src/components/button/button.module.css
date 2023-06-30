@@ -4,9 +4,7 @@
     justify-content: center;
     gap: var(--size-2);
     border-radius: var(--size-1);
-    font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
     line-height: 1;
     white-space: nowrap;
     cursor: pointer;
@@ -18,10 +16,12 @@
 }
 
 .small {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
     padding-left: var(--size-3);
     padding-right: var(--size-3);
     height: var(--size-8);
+    font-weight: 500;
+    letter-spacing: 0.15em;
 }
 
 .medium {
@@ -29,6 +29,8 @@
     padding-left: var(--size-6);
     padding-right: var(--size-6);
     height: var(--size-10);
+    font-weight: 400;
+    letter-spacing: 0.1em;
 }
 
 .large {
@@ -36,6 +38,8 @@
     padding-left: var(--size-10);
     padding-right: var(--size-10);
     height: var(--size-16);
+    font-weight: 400;
+    letter-spacing: 0.07em;
 }
 
 .solid {
@@ -53,6 +57,6 @@
 
 .text {
     height: var(--size-6);
-    background-color: var(--color-text-main);
-    color: var(--color-bg-main);
+    background-color: var(--color-bg-main);
+    color: var(--color-text-main);
 }

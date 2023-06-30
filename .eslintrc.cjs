@@ -24,6 +24,7 @@ module.exports = {
       namedComponents: 'arrow-function',
       unnamedComponents: 'arrow-function'
     }],
-    'import/prefer-default-export': 'off'
+    'import/prefer-default-export': 'off',
+    'arrow-body-style': 'off'
   }
 };

@@ -24,10 +24,3 @@ export const Button = ({
         </button>
     );
 };
-
-Button.defaultProps = {
-    type: 'button',
-    size: 'md',
-    style: 'solid',
-    disabled: false,
-} as ButtonProps;
